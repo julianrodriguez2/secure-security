@@ -14,6 +14,6 @@ jobs:
     name: Phase 0 placeholder
     runs-on: ubuntu-latest
     steps:
-      - uses: actions/checkout@v5
+      - uses: actions/checkout@v7
       - run: echo "Security scanning is introduced in Phase 7."
 
