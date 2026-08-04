@@ -1,0 +1,7 @@
+<Project Sdk="Microsoft.NET.Sdk.Web">
+  <PropertyGroup>
+    <AssemblyName>SecureNotes.Api</AssemblyName>
+    <RootNamespace>SecureNotes.Api</RootNamespace>
+  </PropertyGroup>
+</Project>
+

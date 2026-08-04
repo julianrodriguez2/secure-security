@@ -1,0 +1,31 @@
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.0.31903.59
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SecureNotes.Api", "src\SecureNotes.Api\SecureNotes.Api.csproj", "{195DA5C7-6AD9-4147-AD60-667C12DCDE3B}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SecureNotes.UnitTests", "tests\SecureNotes.UnitTests\SecureNotes.UnitTests.csproj", "{71D0B07E-2F6A-4A9D-86A1-CBBC61AAE80D}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SecureNotes.IntegrationTests", "tests\SecureNotes.IntegrationTests\SecureNotes.IntegrationTests.csproj", "{BFC503AA-CC84-46FB-8487-A16167120BA2}"
+EndProject
+Global
+  GlobalSection(SolutionConfigurationPlatforms) = preSolution
+    Debug|Any CPU = Debug|Any CPU
+    Release|Any CPU = Release|Any CPU
+  EndGlobalSection
+  GlobalSection(ProjectConfigurationPlatforms) = postSolution
+    {195DA5C7-6AD9-4147-AD60-667C12DCDE3B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+    {195DA5C7-6AD9-4147-AD60-667C12DCDE3B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+    {195DA5C7-6AD9-4147-AD60-667C12DCDE3B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+    {195DA5C7-6AD9-4147-AD60-667C12DCDE3B}.Release|Any CPU.Build.0 = Release|Any CPU
+    {71D0B07E-2F6A-4A9D-86A1-CBBC61AAE80D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+    {71D0B07E-2F6A-4A9D-86A1-CBBC61AAE80D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+    {71D0B07E-2F6A-4A9D-86A1-CBBC61AAE80D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+    {71D0B07E-2F6A-4A9D-86A1-CBBC61AAE80D}.Release|Any CPU.Build.0 = Release|Any CPU
+    {BFC503AA-CC84-46FB-8487-A16167120BA2}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+    {BFC503AA-CC84-46FB-8487-A16167120BA2}.Debug|Any CPU.Build.0 = Debug|Any CPU
+    {BFC503AA-CC84-46FB-8487-A16167120BA2}.Release|Any CPU.ActiveCfg = Release|Any CPU
+    {BFC503AA-CC84-46FB-8487-A16167120BA2}.Release|Any CPU.Build.0 = Release|Any CPU
+  EndGlobalSection
+EndGlobal
+

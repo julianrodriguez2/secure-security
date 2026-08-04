@@ -1,0 +1,65 @@
+# Build output and local tooling
+[Bb]in/
+[Oo]bj/
+TestResults/
+coverage/
+.artifacts/
+.dotnet/
+.nuget-packages/
+node_modules/
+.npm-cache/
+.vite/
+dist/
+
+# Local configuration and secrets
+.env
+.env.*
+!.env.example
+secrets/
+local-secrets/
+*.pem
+*.key
+*.pfx
+*.p12
+*.cer
+*.crt
+*.jks
+*.keystore
+
+# Containers, databases, and generated evidence
+volumes/
+data/
+postgres-data/
+keycloak-data/
+*.db
+*.sqlite
+*.sqlite3
+evidence/generated/
+evidence/screenshots/
+artifacts/
+scan-results/
+zap-report*
+*.sarif
+
+# Test artifacts that can contain sessions or tokens
+playwright-report/
+test-results/
+blob-report/
+.auth/
+storage-state/
+*.har
+
+# IDE and operating system files
+.vs/
+.vscode/
+*.user
+*.suo
+*.userosscache
+*.sln.docstates
+.DS_Store
+Thumbs.db
+
+# Future infrastructure state
+*.tfstate
+*.tfstate.*
+.terraform/
